@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#131720;
+    --secondary-color:#fff;
+    --padding-inline-section:20px ;
+}
+
+/* Utility Classes */
+
+.container{
+    max-width: 1920px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+    overflow: hidden;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+.primary-btn{
+    background-color: var(--primary-color);
+    padding: 0.5rem 2rem;
+    border-radius: 0.2rem;
+    color: var(--secondary-color);
+}
+
+.secondary-btn{
+    background-color: var(--secondary-color);
+    padding: 0.5rem 2rem;
+    border-radius: 0.2rem;
+    color: var(--primary-color) ;
+}
+
+/* NAv BAr */
+
+.nav-toggle{
+    display: none;
+}
+.main-nav{
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+}
+
+.hover-links{
+    color: var(--primary-color);
+}
+
+.company-links ul{
+    justify-content: start;
+    gap: 40px;
+}
+
+.company-links{
+    flex-basis: 730px;
+  
+}
+
+/* Login Container */
+
+.login-container{
+    margin-top: 4rem;
+    flex-direction: column;
+    align-content: center;
+    gap: 1.5rem;
+    width: 700px;
+    height: 500px;
+    background-color: #131720;
+    border-radius: 2rem;
+    color: var(--secondary-color);
+    padding-top: 3rem;
+}
+
+form{
+    flex-direction: column;
+}
+
+label{
+    margin-top: 2rem;
+    margin-bottom: 0.3rem;
+    align-self: flex-start;
+}
+.f-pass{
+    color: var(--secondary-color);
+    margin: 0.2rem;
+    align-self: flex-end;
+}
+input{
+    height: 2rem;
+    width: 20rem;
+    border: solid 1px white;
+    background-color: var(--primary-color);
+}
+
+.l-btn{
+    margin-top: 3rem;
+    width: 10rem;
+    height: 3rem;
+}
