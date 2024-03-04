@@ -256,5 +256,20 @@ li{
     text-align: center;
   }
 
+  .login-container::before {
+    width: 90%; /* Adjust width as needed */
+    height: 50%; /* Adjust height as needed */
+    top: 65%;
+    right: 50%;
+ 
+}
+
+.login-container::after {
+    width: 90%; /* Adjust width as needed */
+    height: 45%;
+    bottom: 70%;
+    left: 38%; 
+}
+
 }
 
