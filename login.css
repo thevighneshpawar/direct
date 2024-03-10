@@ -147,11 +147,12 @@ label{
     position: relative;
     display: flex;
     align-items: center;
+    width: 100%;
   }
   
   .password-field {
     flex: 1;
-    padding-right: 30px; /* Make space for the eye icon */
+    padding-right: 30px; 
   }
   
   .password-toggle {
