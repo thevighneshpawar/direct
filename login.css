@@ -57,9 +57,9 @@ body{
     background-color: #fff0da;
 }
 
-/* .nav-toggle{
+.nav-toggle{
     display: none;
-} */
+}
 .main-nav{
     justify-content: space-between;
     margin-top: 20px;
